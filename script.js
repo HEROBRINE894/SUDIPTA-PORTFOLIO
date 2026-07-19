@@ -5,6 +5,7 @@ function filterProjects(category, button) {
 buttons.forEach(btn => btn.classList.remove("active"));
 
 button.classList.add("active");
+console.log(button.classList)
     const cards = document.querySelectorAll(".card");
     const noProjects = document.getElementById("no-projects");
     let visible = 0;
