@@ -1,6 +1,5 @@
 console.log("script.js loaded");
 function filterProjects(category) {
-    alert(category);
     const cards = document.querySelectorAll(".card");
     const noProjects = document.getElementById("no-projects");
     let visible = 0;
