@@ -1,5 +1,10 @@
 console.log("script.js loaded");
-function filterProjects(category) {
+function filterProjects(category, button) {
+    const buttons = document.querySelectorAll(".filter-buttons button");
+
+buttons.forEach(btn => btn.classList.remove("active"));
+
+button.classList.add("active");
     const cards = document.querySelectorAll(".card");
     const noProjects = document.getElementById("no-projects");
     let visible = 0;

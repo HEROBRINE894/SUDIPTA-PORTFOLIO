@@ -25,12 +25,13 @@
     <a href="#projects" class="btn">View My Projects</a>
 </header>
 <div class="filter-buttons">
-    <button onclick="filterProjects('all')">All</button>
-    <button onclick="filterProjects('cpp')">C++</button>
-    <button onclick="filterProjects('python')">Python</button>
-    <button onclick="filterProjects('java')">Java</button>
-    <button onclick="filterProjects('ai')">AI/ML</button>
-    <button onclick="filterProjects('web')">Web</button>
+    <button class="active" onclick="filterProjects('all', this)">All</button>
+    <button onclick="filterProjects('all', this)">All</button>
+    <button onclick="filterProjects('cpp', this)">C++</button>
+    <button onclick="filterProjects('python', this)">Python</button>
+    <button onclick="filterProjects('java', this)">Java</button>
+    <button onclick="filterProjects('ai', this)">AI/ML</button>
+    <button onclick="filterProjects('web', this)">Web</button>
 </div>
 
 <section id="projects" class="projects">

@@ -157,3 +157,12 @@ footer{
     padding:20px;
     margin-top:40px;
 }
+.filter-buttons button {
+    transition: all 0.3s ease;
+}
+
+.filter-buttons button.active {
+    transform: scale(1.15);
+    background: #0056d6;
+    box-shadow: 0 0 12px rgba(0, 86, 214, 0.5);
+}
